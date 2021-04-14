@@ -1,0 +1,141 @@
+.sticky {
+width: 100%;
+height: 61px;
+left: 0px;
+top: 0px;
+color: black;
+background: #1CD1B0;
+padding: 50px;
+font-weight: 900;
+position: sticky;
+z-index: 900;
+}
+
+header{
+width: 100%;
+height: 162px;
+left: 0px;
+top: 60px;
+color: white;
+background: #00669F;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+padding: 50px;
+margin-bottom: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Roboto', sans-serif; ;
+    src: url();
+}
+.back{
+    width: 700px;
+    height: 406.63px;
+    left: 610px;
+    top: 297px;
+    border-radius: 50px 50px 0 0;
+}
+.bat {
+background-image:url(../img/bati.jpg);
+width: 700px;
+    height: 403px;
+   
+}
+.won {
+    background-image: url(../img/amazon.jpg);
+    width: 700px;
+    height: 406.63px;
+   
+}
+.sup {
+    background-image: url(../img/kripton.jpg);
+    width: 700px;
+    height: 406.63px;
+   
+}
+.circleBatman {
+    background-image: url(../img/batman.jpg);
+    width: 300px;
+height: 300px;
+border-radius: 100%;
+position: absolute;
+left: 50%;
+top: 250px;
+margin-left: -150px;
+
+
+}
+.circleSuper {
+    background-image: url(../img/superman.jpg);
+    width: 300px;
+height: 300px;
+border-radius: 100%;
+left: 50%;
+top: 250px;
+margin-left: -150px;
+position: absolute;
+}
+.circleWonder {
+    background-image: url(../img/wonder.jpg);
+    width: 300px;
+height: 300px;
+border-radius: 100%;
+left: 50%;
+top: 250px;
+margin-left: -150px;
+position: absolute;
+}
+.card{
+width: 699.13px;
+position: relative;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 24pt;
+margin:50px auto;
+padding-bottom: 30px;
+overflow: hidden;
+border-radius: 50px 50px 0 0;
+}
+footer {
+width: 100%;
+position: relative;
+padding: 50px;
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: white;
+text-align: center;
+}
+.icon{
+    color:#00669F;
+    font-size: 70px;
+    position: fixed;
+    top: 50%;
+    left: 90%;
+}
+.texto {
+    padding: 180px 30px 0px 30px;
+    text-align: center;
+    text-align: left;
+}
+.texto h2{
+    padding-bottom:30px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+
+a {
+    padding: 11px 56px;
+    background-color: #00669F;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
